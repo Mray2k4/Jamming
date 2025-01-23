@@ -1,9 +1,11 @@
 import './App.css';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
     <div>
-      <h1>Marque</h1>
+      <SearchBar />
+      <h1>Marque Ray</h1>
     </div>
   );
 }
